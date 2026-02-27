@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZainyGraphy</title>
+    <link rel="stylesheet" href="hello.css">
+</head>
+<body>
+    <section id="home" >
+    <header style="color: brown; font-size: 4cap;">ZainyGraphy</header>
+    <div>
+        <nav>
+        <a href="hello.html"><button>Home</button></a>
+        <a href="about.html"><button>About</button></a>
+        <a href="contactus.html"><button>Contact us</button></a>
+        </nav>
+    </div>
+    <header class="contact-us">CONTACT US</header>
+
+        <div id="form"></div>
+        <form action="/submit-feedback" method="POST">
+        <legend>Fill the Form </legend>
+        <fieldset>
+
+            <!--Name Field-->
+            <label type="name" id="nametext">Name *</label></label><br>
+            <input type="name" id="name" placeholder="Enter your Name" required><br><br>
+
+            <!--Email Field-->
+              <label type="email" id="email">Email *</label></label><br>
+            <input type="email" id="email" placeholder="Enter your Email" required><br><br>
+
+            <!--Comment Field-->
+              <label type="comment" id="comment">Comment *</label></label><br>
+            <textarea style="font-size: large;" id="comment" placeholder="Comment Here" rows="4" cols="50" required></textarea><br><br>
+            <a href="#"><button type="submit" style="background-color: brown; color: white; border-radius: 1cm;">Submit</button></a>
+        </fieldset>
+
+        </form>
+
+    </Section>

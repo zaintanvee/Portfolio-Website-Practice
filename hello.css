@@ -1,0 +1,166 @@
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 20px;
+}
+   .portfolio{
+    text-align: center;
+    margin-left: 4cap;
+    margin-right: 4cap;
+    margin-top: 1cap;
+    font-size: 50px;
+    text-decoration: overline;
+    text-decoration-color: #ff4242;
+    margin-bottom: -2%;
+    text-decoration-thickness:4px ;
+    font-family: 'Franklin Gothic Medium';
+   
+   }
+
+ nav{
+     float: right;
+    
+     margin-top: -3.4%;
+ }
+     
+    
+
+@media(max-width:768px){
+    nav{
+        margin-top: -4cap;
+        display: none;
+        
+        
+}
+}
+    button{
+        padding: 1cap;
+        font-family: Arial;
+        border-color: transparent;
+        background-color: transparent;
+        font-size: 17px;
+        margin-top: -4px;
+        transition: transform 0.2s ease; 
+    }
+button:hover{
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: brown;
+    transform: scale(1.1);
+    border-radius: 1cm;    
+}
+.container{
+   display: flex;
+   overflow: auto;
+   gap: 15px;
+  padding-left: -1cm;
+    
+}
+.thumbtext{
+    margin-top: 1%;
+    padding-top: -2;
+    margin-left: 1%;
+    padding-top: 59px;
+    color: rgb(0, 0, 0);
+    font-family:system-ui, -apple-system;
+    font-size: 30px;
+    position: relative;
+  display: inline-block;
+ 
+}
+.thumbtext::before{
+    content: '';
+    top: 50%;
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    background: #ff4242;
+    transform: scaleX(0);
+    transform-origin: bottom;
+    transition: transform 0.3s ease;
+    
+}   
+.thumbtext:hover::before{
+    transform: scaleX(1);
+    
+} 
+    img{
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    filter: brightness(0.9) sepia(1) hue-rotate(90deg);
+}
+
+/*About and Contact us*/
+
+#about{
+    display: grid;
+    text-align: center;
+}
+
+
+h1{
+    margin-left: -20cap;
+    margin-bottom: 18px;
+    padding-top: 1cap;
+}
+figcaption{
+    margin-top: 6px;
+}
+body{
+    background-color: rgba(255, 255, 255, 0.863);
+}
+.about{
+    display:grid;
+    text-align: center;
+    padding-top: 5cap;
+   margin-left: 4cm;
+   margin-right: 4cm;
+   margin-top:10px ; 
+    
+}
+.headingabout{
+  margin-left: 4cm;
+   margin-right: 4cm;
+   adding-right: 5px;
+   padding-top: 2cap;
+   font-family: Georgia;
+   padding-right: 1%;
+   color: rgb(0, 0, 0);
+   text-decoration: underline;
+}
+.bullet{
+    text-align: start;
+    
+}
+fieldset{
+    padding: 5cap;
+    border-color: brown;
+    border-radius: 1cm;
+    margin:1%;
+}
+
+.contact-us{
+    padding-top: 5cap;
+    padding-bottom:1cap ;
+    font-size: xx-large;
+    font-family: Georgia;
+}
+fieldset{
+padding: 2cap;
+border-color: black;
+}
+label{
+    font-size: large;
+    text-align: center;
+}
+
+    
